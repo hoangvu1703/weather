@@ -18,8 +18,8 @@ body.hot {
 		url(hot.png) no-repeat center/cover;
 }
 
-body.hot #weather {
-	background-image: url(hot.png);
+body.hot .new-weather {
+	background-image: url(Hinh-anh-mua-he-Taihinhanh-Vn-21.jpg);
 }
 
 body.cold {
@@ -27,11 +27,11 @@ body.cold {
 		url(cold.png) no-repeat center/cover;
 }
 
-body.cold #weather {
-	background-image: url(cold.png);
+body.cold .new-weather {
+	background-image: url(tải\ xuống.jpg);
 }
 
-#weather {
+.new-weather {
 	min-width: 350px;
 	height: 600px;
 	background: no-repeat center/cover;
@@ -41,7 +41,7 @@ body.cold #weather {
 	transition: 0.4s;
 }
 
-#weather input {
+.new-weather input {
 	padding: 10px 20px;
 	background-color: rgba(255, 255, 255, 0.4);
 	font-size: 19px;
@@ -54,57 +54,53 @@ body.cold #weather {
 	transition: 0.4s;
 }
 
-#weather input:focus {
+.new-weather input:focus {
 	background-color: rgba(255, 255, 255, 0.8);
 	border-radius: 15px 0 15px 0;
 }
 
-#weather .content {
+.new-weather .content {
 	color: white;
 }
 
-#weather .content .name {
+.new-weather .content .name {
 	white-space: nowrap;
-	font-size: 35px;
-	text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+	font-size: 35px
 }
 
-#weather .content .time {
+.new-weather .content .time {
 	font-size: 15px;
 	margin: 6px 0;
 }
 
-#weather .content .temperature {
+.new-weather .content .temperature {
 	font-size: 65px;
-	text-shadow: 4px 4px rgba(0, 0, 0, 0.6);
 	display: inline-block;
 	padding: 20px;
 	background-color: rgba(255, 255, 255, 0.4);
 	border-radius: 15px;
-	box-shadow: 2px 2px 0 2px rgba(0, 0, 0, 0.5);
 	margin: 20px 0 30px;
 	font-weight: 800;
 }
 
-#weather .content .short-desc {
+.new-weather .content .short-desc {
 	font-size: 40px;
 	font-weight: 600;
-	text-shadow: 3px 3px rgba(0, 0, 0, 0.4);
 }
 
-#weather .content .more-desc {
+.new-weather .content .more-desc {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	margin-top: 40px;
 }
 
-#weather .content .more-desc > div {
+.new-weather .content .more-desc > div {
 	font-size: 16px;
 	display: flex;
 	flex-direction: column;
 }
 
-#weather .content .more-desc > div span {
+.new-weather .content .more-desc > div span {
 	margin-top: 15px;
 }
