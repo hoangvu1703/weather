@@ -29,8 +29,9 @@ function changeWeatherUI(weather) {
 }
 
 input.addEventListener('keyup', event => {
-
-	
+	if (event.keyCode === 13) {
+		getWeather(event.target.value)
+	}
 })
 
 async function getWeather(input) {
